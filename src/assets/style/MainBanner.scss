@@ -1,0 +1,198 @@
+.MainBanner {
+  .w-100 {
+    width: 100%;
+  }
+  .top-section {
+    //min-height: calc(100vh - 125px);
+    background-image: url("../images/topbanner.png");
+    background-size: 100% 100%;
+    padding: 3% 0;
+
+    .black-container {
+      background-image: url("../images/topblackbox.png");
+      background-size: contain;
+      width: 40vw;
+      padding: 13% 3%;
+      //margin-top: 4%;
+
+      .main-heading {
+        font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+        font-size: 80px;
+        color: #ffffff !important;
+        line-height: 1.2em;
+      }
+      .main-span {
+        font-family: "Roboto Mono", monospace;
+        color: #ffffff;
+        line-height: 1.8em;
+        margin-top: 9%;
+        font-size: 1.6rem;
+      }
+      .top-banner-btn {
+        background-color: #42e2ba;
+        color: white;
+        margin-top: 12%;
+        text-transform: uppercase;
+        padding: 3% 8%;
+        letter-spacing: 3px;
+        &:hover {
+          color: #42e2ba;
+          background-color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .section-two {
+    .heading-1 {
+      font-family: "Roboto Mono", monospace;
+      font-size: 26px;
+      color: #000000 !important;
+      line-height: 1.5em;
+    }
+    .heading-2 {
+      font-family: "Open Sans", Arial, sans-serif;
+      font-size: 14px;
+      color: #666;
+      background-color: #fff;
+      line-height: 1.7em;
+      font-weight: 500;
+    }
+    .top-banner-btn {
+      background-color: #42e2ba;
+      color: white;
+      text-transform: uppercase;
+      padding: 3% 8%;
+      letter-spacing: 3px;
+      &:hover {
+        color: #42e2ba;
+        background-color: white;
+        cursor: pointer;
+        border: 1px solid #42e2ba;
+      }
+    }
+  }
+  .ListenToTheNumber {
+    .heading1 {
+      font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+      font-size: 54px;
+      color: #000000;
+      line-height: 1.35em;
+      font-weight: 600;
+    }
+    .img-1 {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.7) 100%
+        ),
+        url("../images/pic3.jpg");
+      background-size: cover;
+      padding-top: 409px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+      padding-left: 40px;
+      transition: transform 300ms ease 0ms;
+      &:hover {
+        transform: scaleX(1.05) scaleY(1.05);
+      }
+      .heading2 {
+        font-family: "Roboto Mono", monospace;
+        font-size: 26px;
+        color: #ffffff !important;
+        line-height: 1.5em;
+        font-weight: 500;
+      }
+    }
+    .img-2 {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 0%,
+          rgba(0, 0, 0, 0.7) 100%
+        ),
+        url("../images/pic3.jpg");
+      background-size: cover;
+      padding-top: 170px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      margin-bottom: 0px;
+      transition: transform 300ms ease 0ms;
+      &:hover {
+        transform: scaleX(1.05) scaleY(1.05);
+      }
+      .heading2 {
+        font-family: "Roboto Mono", monospace;
+        color: #ffffff !important;
+        line-height: 1.8em;
+        font-size: 18px;
+      }
+    }
+  }
+  .section-three {
+    min-height: calc(100vh - 125px);
+    background-image: url("../images/background-2.png");
+    padding-top: 120px;
+    background-size: cover;
+    padding-bottom: 0px;
+    background-color: #000000 !important;
+    .heading-1 {
+      font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+      font-size: 54px;
+      color: #ffffff !important;
+      line-height: 1.35em;
+      width: 62%;
+    }
+    .box {
+      display: flex;
+
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        width: 25%;
+        margin-top: 8%;
+        .heading-1 {
+          font-family: "Roboto Mono", monospace;
+          color: #ffffff !important;
+          line-height: 1.8em;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .detail {
+          font-family: "Open Sans", Arial, sans-serif;
+          color: #b3b3b3;
+          font-size: 18px;
+        }
+        .top-banner-btn {
+          background-color: #42e2ba00;
+          border: 1px solid #42e2ba;
+          color: white;
+          text-transform: uppercase;
+          padding: 6% 8%;
+          font-weight: 600;
+          letter-spacing: 3px;
+          &:hover {
+            color: #42e2ba;
+            background-color: white;
+            cursor: pointer;
+            border: 1px solid #42e2ba;
+          }
+        }
+      }
+    }
+    .box2 {
+      .box1 {
+        width: 25%;
+        .heading-1 {
+          font-family: "Open Sans", Arial, sans-serif;
+          color: white;
+          font-size: 16px;
+        }
+      }
+      .box2 {
+        width: 75%;
+      }
+    }
+  }
+}
