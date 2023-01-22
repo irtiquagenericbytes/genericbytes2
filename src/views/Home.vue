@@ -1,39 +1,31 @@
 <template>
   <div>
     <v-app-bar app color="white" dark>
-      <div class="d-flex align-center">
-       <div class="logo ml-8">
-        Genaric bytes
-       </div>
+      <div class="d-flex align-center ">
+        <v-btn class="ml-8" depressed text to="/"
+          ><span class="logo"> Genaric bytes</span></v-btn
+        >
       </div>
 
       <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+      <v-btn text  to="contact">
+        <span class="mr-2 black--text" style="text-transform: none"
+          >Contact</span
+        >
       </v-btn>
     </v-app-bar>
 
-    <div class="body">
-      <!------------------Section one------------------------------->
-      <MainBanner/>
-    </div>
+    <router-view class="body" />
   </div>
 </template>
 
 <script>
-import MainBanner from "../components/MainBanner/MainBanner.vue";
+//import MainBanner from "../components/MainBanner/MainBanner.vue";
 export default {
   name: "Home",
 
-  components: {
-    MainBanner
-  },
+  components: {},
 };
 </script>
 
@@ -41,10 +33,11 @@ export default {
 .body {
   background-color: #fdfdfe;
 }
-.logo{
-  font-family: 'Poppins',sans-serif;
+.logo {
+  font-family: "Poppins", sans-serif;
   font-size: 23px;
   color: black;
   font-weight: 600;
+  background-color: transparent;
 }
 </style>

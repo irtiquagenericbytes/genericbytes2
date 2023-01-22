@@ -1,0 +1,50 @@
+.GernalSection {
+  .top-section {
+    width: 100%;
+    .top-section-img {
+      //min-height: calc(100vh - 125px);
+      background-image: url("../images/background-3.png");
+      background-size: 100% 100%;
+      padding: 7% 0;
+
+      .black-container {
+        background-color: black;
+        background-size: contain;
+        width: 37vw;
+        padding: 2% 0% 1% 0;
+
+        .main-heading {
+          font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+          font-size: 80px;
+          color: #ffffff !important;
+          line-height: 1.2em;
+          padding: 0 20%;
+        }
+        .main-span {
+          font-family: "Roboto Mono", monospace;
+          color: #ffffff;
+          line-height: 1.8em;
+          margin-top: 4%;
+          padding: 0 11%;
+          font-size: 1rem;
+        }
+        .bottom-section {
+          padding: 5% 13%;
+        }
+        .top-banner-btn {
+          background-color: #42e2ba;
+          color: white;
+          margin-top: 7%;
+          text-transform: uppercase;
+          padding: 3% 8%;
+          letter-spacing: 3px;
+          &:hover {
+            color: #42e2ba;
+            background-color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

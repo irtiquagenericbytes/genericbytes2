@@ -1,0 +1,31 @@
+.ContactUs {
+  .background-img-section {
+    background-image: url("../images/contect-bg.png");
+    background-size: 100% 100%;
+    min-height: calc(100vh - 125px);
+    display: grid;
+    align-items: center;
+    .form-section {
+      .h1 {
+        font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+        font-size: 80px;
+        color: #000000 !important;
+        line-height: 1.2em;
+        font-weight: 600;
+      }
+      .top-banner-btn {
+        background-color: #42e2ba;
+        color: white;
+        margin-top: 1%;
+        text-transform: uppercase;
+        padding: 3% 8%;
+        letter-spacing: 3px;
+        &:hover {
+          color: #42e2ba;
+          background-color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
